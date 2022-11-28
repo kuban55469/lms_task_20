@@ -1,4 +1,4 @@
 public interface Ploshad {
-    void ploshad(double height, double width, double length) throws NegativeNumber, ValueGreaterThan20;
-    void obom(double height, double width, double length);
+    void ploshad(double length, double width, double height);
+    void obom(double length, double width, double height);
 }

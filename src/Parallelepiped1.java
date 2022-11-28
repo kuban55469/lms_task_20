@@ -20,7 +20,7 @@ public class Parallelepiped1 implements Ploshad{
                 throw new NegativeNumber();
             }
         }catch (NegativeNumber e) {
-            System.out.println("Нельзя писать отрийательное число");
+            System.out.println("Нельзя писать отрицательное число");
         }
     }
 
@@ -43,7 +43,7 @@ public class Parallelepiped1 implements Ploshad{
                 throw new NegativeNumber();
             }
         }catch (NegativeNumber e) {
-            System.out.println("Нельзя писать отрийательное число");
+            System.out.println("Нельзя писать отрицательное число");
         }
     }
 }
